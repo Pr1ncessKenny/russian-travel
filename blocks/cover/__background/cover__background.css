@@ -1,0 +1,21 @@
+.cover__background{
+  min-height: 640px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../images/cover__background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 4;
+}
+.cover__background:hover .cover__overlay{
+  opacity: 0.8;
+}
+@media(min-width:1280px){
+  .cover__background{
+    background-size: cover;
+  }
+}

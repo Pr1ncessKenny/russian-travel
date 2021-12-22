@@ -1,0 +1,8 @@
+.lead{
+  padding-top: 48px;
+}
+@media(min-width: 1280px){
+  .lead{
+    padding: 56px 148px 0;
+  }
+}

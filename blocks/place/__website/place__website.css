@@ -1,0 +1,5 @@
+.place__website{
+  min-width: 456px;
+  align-self: flex-end;
+  flex-basis: 50%;
+}
