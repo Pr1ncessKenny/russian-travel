@@ -1,5 +1,8 @@
 .place__website{
-  min-width: 456px;
-  align-self: flex-end;
-  flex-basis: 50%;
+  align-self: end;
+}
+@media(max-width:767px){
+  .place__website{
+    padding: 0 16px;
+  }
 }

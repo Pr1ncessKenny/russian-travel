@@ -4,7 +4,10 @@
 .footer__link:last-child{
   margin: 0;
 }
-@media(max-width:768px){
+.footer__link:hover{
+  text-decoration: underline;
+}
+@media(max-width:767px){
   .footer__link{
     margin-bottom: 22px;
   }

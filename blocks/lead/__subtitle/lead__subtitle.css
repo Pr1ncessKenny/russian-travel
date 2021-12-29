@@ -10,3 +10,11 @@
     margin-bottom: 64px;
   }
 }
+@media(max-width:767px){
+  .lead__subtitle{
+    padding: 0 16px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto 40px;
+  }
+}

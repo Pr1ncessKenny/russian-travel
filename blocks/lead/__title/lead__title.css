@@ -6,9 +6,10 @@
   line-height: 100px;
   text-align: center;
 }
-@media(max-width:768px){
+@media(max-width:767px){
   .lead__title{
-    font-size: 46px;
-    line-height: 1.1;
+    padding: 0 16px;
+    font-size: 40px;
+    line-height: 44px;
   }
 }

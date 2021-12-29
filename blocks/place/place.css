@@ -1,17 +1,17 @@
 .place{
   padding-top: 92px;
   display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-columns: 1fr 1fr;
   gap: 48px 32px;
 }
-
-@media(max-width:1024px){
+@media(max-width:1023px) {
   .place{
-    grid-template-columns: repeat(2, 1fr);
+    gap: 48px 28px;
   }
 }
-@media(max-width:768px){
+@media(max-width:767px) {
   .place{
     grid-template-columns: 1fr;
+    gap: 32px 0;
   }
 }

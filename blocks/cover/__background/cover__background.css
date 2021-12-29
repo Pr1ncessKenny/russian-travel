@@ -1,21 +1,36 @@
 .cover__background{
+  margin: 0 auto;
+  max-width: 1024px;
   min-height: 640px;
-  position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
   background-image: url(../../../images/cover__background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
   background-position: center;
-  z-index: 4;
+  background-repeat: no-repeat;
+  z-index: 1;
 }
 .cover__background:hover .cover__overlay{
   opacity: 0.8;
 }
 @media(min-width:1280px){
   .cover__background{
+    max-width: 1184px;
     background-size: cover;
+  }
+}
+@media(max-width:1023px){
+  .cover__background{
+    background-size: cover;
+    max-width: 100%;
+    min-height: 480px;
+  }
+}
+@media(max-width:767px){
+  .cover__background{
+    padding: 32px 16px;
+    min-height: 200px;
   }
 }
