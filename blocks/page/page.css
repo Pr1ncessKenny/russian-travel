@@ -1,5 +1,15 @@
 .page{
+  padding: 0;
+  margin: 0;
+  border: 0;
   font-family: Inter, sans-serif;
   background: #2A2C2F;
   color: #fff;
+  height:100%;
+  width:100%;
+  line-height:1;
+  font-size:14px;
+  -ms-text-size-adjust:100%;
+  -moz-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
 }
