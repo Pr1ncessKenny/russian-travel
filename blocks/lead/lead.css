@@ -1,6 +1,7 @@
 .lead{
-  padding: 48px 48px 0;
+  max-width: 984px;
   margin: 0 auto;
+  padding: 48px 48px 0;
 }
 @media(min-width: 1280px){
   .lead{

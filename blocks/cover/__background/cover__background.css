@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   position: relative;
   background-image: url(../../../images/cover__background.png);
   background-size: contain;
@@ -12,12 +13,10 @@
   background-repeat: no-repeat;
   z-index: 1;
 }
-.cover__background:hover .cover__overlay{
-  opacity: 0.8;
-}
 @media(min-width:1280px){
   .cover__background{
     max-width: 1184px;
+    min-height: 720px;
     background-size: cover;
   }
 }
@@ -30,7 +29,7 @@
 }
 @media(max-width:767px){
   .cover__background{
-    padding: 32px 16px;
+    padding: 0 16px;
     min-height: 200px;
   }
 }
