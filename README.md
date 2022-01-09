@@ -5,8 +5,6 @@
 * Медиазапросы
 * Оптимизация изображений
 * Подключение шрифтов
-* Hosting GitHub
+* Hosting **GitHub**
 
-**GitHub**
-
-* [Здесь можно посмотреть мою работу на GirHub](https://pr1ncesskenny.github.io/russian-travel/index.html)
+[Здесь можно посмотреть мою работу на GitHub](https://pr1ncesskenny.github.io/russian-travel/index.html)
