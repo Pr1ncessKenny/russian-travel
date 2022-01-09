@@ -6,7 +6,7 @@
   margin: 0;
 }
 .footer__link:hover{
-  opacity: 0.5;
+  opacity: 0.8;
 }
 @media(max-width:767px){
   .footer__link{

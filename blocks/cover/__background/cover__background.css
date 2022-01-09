@@ -20,6 +20,7 @@
     background-size: cover;
   }
 }
+/* В данном случае background-size: cover не дублирующее правило, т.к. если его убрать наследуется background-size: contain;  */
 @media(max-width:1023px){
   .cover__background{
     background-size: cover;
